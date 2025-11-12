@@ -2,6 +2,7 @@
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import clsx from 'clsx'
+import type { Route } from 'next'  // ✅ 추가
 
 const links = [
   { href: '/', label: '홈' },
